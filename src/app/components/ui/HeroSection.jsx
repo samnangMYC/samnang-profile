@@ -13,8 +13,7 @@ const HeroSection = () => {
           <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-purple-500  text-4xl lg:text-5xl ">
             Hola, Welcome!!
           </h1>
-          <h1 className="mb-1 p-3  text-transparent bg-clip-text bg-gradient-to-r  from-orange-400 to-purple-500 text-5xl lg:text-7xl font-extrabold"
-         >
+          <h1 className="mb-1 p-3 text-transparent bg-clip-text bg-gradient-to-r  from-orange-400 to-purple-500 text-4xl lg:text-7xl font-extrabold">
             I'm Khon Samnang
           </h1>
 
@@ -26,20 +25,20 @@ const HeroSection = () => {
               "&Mobile Devoloper",
               2000,
             ]}
-            className="text-4xl lg:text-6xl"
+            className="text-3xl lg:text-6xl"
             wrapper="span"
             speed={50}
             style={{
-              
               fontWeight: "bold",
               display: "inline-block",
             }}
             repeat={Infinity}
-            
           />
 
           <p className="text-lg lg:text-xl py-4 ">
-          I've had the privilege of working on a wide range of projects that showcase my technical expertise, problem-solving skills, and passion for building innovative solutions. 
+            I've had the privilege of working on a wide range of projects that
+            showcase my technical expertise, problem-solving skills, and passion
+            for building innovative solutions.
           </p>
           <div>
             <button
