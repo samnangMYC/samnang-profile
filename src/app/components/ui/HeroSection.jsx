@@ -41,7 +41,7 @@ const HeroSection = () => {
           <p className="text-lg lg:text-xl py-4 ">
           I've had the privilege of working on a wide range of projects that showcase my technical expertise, problem-solving skills, and passion for building innovative solutions. 
           </p>
-          <div className=" ">
+          <div>
             <button
               className="bg-gradient-to-br from-orange-400 to-purple-500  px-12 py-5 mr-4 rounded-full text-xl shadow-sm shadow-[#42f566] 
             hover:bg-blue-500 hover:text-blue-500 "
