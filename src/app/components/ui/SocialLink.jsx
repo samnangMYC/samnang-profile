@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const SocialLinks = () => {
   const fbLink = "https://www.facebook.com/samnang.khon.77";
@@ -14,16 +15,27 @@ const SocialLinks = () => {
   return (
     <div className="flex justify-center lg:justify-start h-24 items-center ">
       <Link href={fbLink} className="">
-        <img src={fbImg} alt="Facebook Icon" className=" " />
+        <motion.button whileHover={{ scale: 1.1 }}>
+          <img src={fbImg} alt="Facebook Icon" />
+        </motion.button>
       </Link>
+
       <Link href={linkLink}>
-        <img src={linkImg} alt="LinkedIn Icon" className=" " />
+        <motion.button whileHover={{ scale: 1.1 }}>
+          <img src={linkImg} alt="LinkedIn Icon" className=" " />
+        </motion.button>
       </Link>
+
       <Link href={telLink}>
-        <img src={telImg} alt="Telegram Icon" className=" " />
+        <motion.button whileHover={{ scale: 1.1 }}>
+          <img src={telImg} alt="Telegram Icon" className=" " />
+        </motion.button>
       </Link>
+
       <Link href={gitLink}>
-        <img src={gitImg} alt="GitIcon" className=" " />
+        <motion.button whileHover={{ scale: 1.1 }}>
+          <img src={gitImg} alt="GitIcon" className=" " />
+        </motion.button>
       </Link>
     </div>
   );
