@@ -10,7 +10,7 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 lg:grid-cols-12 md:mt-12">
+      <div className="grid grid-cols-1 lg:grid-cols-12 md:mt-20">
         <div className="col-span-7 text-center lg:text-left ">
           <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-200  text-4xl lg:text-5xl ">
             Hola, Welcome!!
@@ -69,7 +69,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 text-4xl text-center opacity-50">
+      <div className="mt-10 text-1xl text-center opacity-50">
         Our Portfolio is updating!! Some function are not curently available!!
       </div>
     </section>
