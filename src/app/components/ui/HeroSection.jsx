@@ -11,11 +11,11 @@ const HeroSection = () => {
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12 md:mt-20">
-        <div className="col-span-7 text-center lg:text-left ">
-          <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-200  text-4xl lg:text-5xl ">
+        <div className="col-span-7 text-center  lg:text-left ">
+          <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-200  text-3xl sm:text-3xl lg:text-5xl ">
             Hola, Welcome!!
           </h1>
-          <h1 className="mb-1 p-3  text-transparent bg-clip-text bg-gradient-to-r  from-blue-300 to-purple-500 text-4xl lg:text-7xl font-extrabold">
+          <h1 className="lg:py-3  text-transparent bg-clip-text bg-gradient-to-r  from-blue-300 to-purple-500 text-[1.8em] lg:text-7xl font-extrabold">
             I'm Khon Samnang
           </h1>
 
@@ -27,7 +27,7 @@ const HeroSection = () => {
               "&Android Developer",
               2000,
             ]}
-            className="text-3xl lg:text-6xl"
+            className="text-[1.8em] lg:text-6xl"
             wrapper="span"
             speed={50}
             style={{
@@ -37,7 +37,7 @@ const HeroSection = () => {
             repeat={Infinity}
           />
 
-          <p className="text-lg lg:text-xl py-4 ">
+          <p className="text-sm mb-4 lg:text-xl lg:py-3 ">
             I've had the privilege of working on a wide range of projects that
             showcase my technical expertise, problem-solving skills, and passion
             for building innovative solutions.
